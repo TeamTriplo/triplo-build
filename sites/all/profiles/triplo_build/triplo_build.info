@@ -10,6 +10,18 @@ core = "7.x"
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = module_filter
+;Misc
+dependencies[] = ctools
+dependencies[] = link
+dependencies[] = views
+dependencies[] = pathauto
+dependencies[] = publish_button
+dependencies[] = token
+dependencies[] = webform
+dependencies[] = views
+dependencies[] = features
+dependencies[] = ckeditor
+dependencies[] = addressfield
 ; Core
 dependencies[] = block
 dependencies[] = color
@@ -39,6 +51,8 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
+
+
 ; Development
 dependencies[] = profiler_builder
 dependencies[] = profiler_builder_extras
