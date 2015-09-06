@@ -1,0 +1,53 @@
+name = Triplo Build
+description = Install with commonly used features pre-configured.
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+
+; Misc
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = pathauto
+dependencies[] = link
+dependencies[] = webform
+dependencies[] = token
+dependencies[] = publish_button
+dependencies[] = entity
+dependencies[] = ckeditor
+dependencies[] = date
+dependencies[] = date_tools
+dependencies[] = date_popup
+dependencies[] = date_views
+dependencies[] = libraries
+
+; Development
+dependencies[] = devel
+dependencies[] = devel_generate
+
+
+
