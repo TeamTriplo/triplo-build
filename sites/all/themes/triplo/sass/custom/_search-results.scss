@@ -1,0 +1,102 @@
+
+.listing-label,
+.first-column,
+.second-column,
+.third-column,
+.event-description {
+  float: left;
+}
+
+.listing-label {
+  width: 10%;
+}
+
+.first-column {
+  width: 20%;
+  text-align: center;
+}
+
+.second-column {
+  width: 55%;
+  padding: 0 5%;
+  h2 {
+    margin-top: 0px;
+  }
+}
+
+.third-column {
+  width: 15%;
+  text-align: center;
+
+}
+
+.event-description {
+  width: 100%;
+  clear: both;
+}
+
+
+.page-user .panel-col-last .views-row,
+.view-chalkboard-filters .views-row,
+.view-id-site_search .views-row {
+  padding: 3%;
+  background-color: white;
+  border: 0 solid #9c9c9c;
+  border-collapse: separate;
+  box-shadow: 3px 3px 12px #9c9c9c;
+  display: block;
+  margin-bottom: 25px;
+  min-height: 150px;
+  overflow: hidden;
+}
+
+.page-sponsor-directory .content-type,
+.page-sponsors .content-type,
+.page-chalkboard-search .content-type,
+.page-chalkboard-index .content-type,
+.page-upcoming-offerings .content-type,
+.page-user .pane-my-offerings .content-type {
+    font-size: 30px;
+    font-weight: 900;
+    left: -60px;
+    position: relative;
+    text-align: right;
+    top: 60px;
+    transform: rotate(-90deg);
+    width: 150px;
+}
+
+#content .Event .views-field-type {
+  display: none;
+}
+
+@media all and (max-width: 500px) {
+  .content-type.Idea {
+    display: none;
+  }
+}
+
+.views-row.Idea {
+  background-color: #FFEEB1;
+}
+
+
+
+// Adding some styling for the new Site Search view
+
+.view-id-site_search {
+  .views-row {
+    min-height: 50px;
+  }
+  .views-field {
+    margin-bottom: 10px;
+  }
+  .views-field-title > h3 {
+    margin-top: 0px;
+  }
+  .views-field-field-image {
+    float: left;
+    margin-right: 20px;
+  }
+
+}

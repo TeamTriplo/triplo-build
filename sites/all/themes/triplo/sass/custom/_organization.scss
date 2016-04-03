@@ -1,0 +1,97 @@
+// Let's set some styles for the full page organization display
+.page-node.node-type-organization {
+  #org-panel-page {
+    // Let's set all field items with indent and margin bottom, then handle exceptions below
+    .field-items {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    // Now style all the views labels to match the other field labels
+    .views-label {
+      font-weight: bold;
+    }
+    // UNindent these fields
+    .pane-node-field-organization-email-address,
+    .pane-node-field-organization-facebook,
+    .pane-node-field-organization-twitter,
+    .pane-node-field-organization-google {
+      .field-items {
+        margin-left: 0px;
+        margin-bottom: 0px;
+      }
+    }
+    // Change these links into icons - snazzy!
+    .pane-node-field-organization-email-address,
+    .pane-node-field-organization-facebook,
+    .pane-node-field-organization-twitter,
+    .pane-node-field-organization-google {
+      float: left;
+      margin-bottom: 20px;
+      .field-item {
+        margin-right: 10px;
+        border: 0;
+        font: 0/0 a;
+        text-shadow: none;
+        color: transparent;
+        width: 32px;
+        height: 32px;
+        a {
+          width: 32px;
+          height: 32px;
+          display: inline-block;
+        }
+      }
+    }
+    .pane-node-field-organization-facebook .field-item {
+      background: url(/sites/all/themes/chalk3/images/icon-fb.svg);
+    }
+    .pane-node-field-organization-email-address .field-item {
+      background: url(/sites/all/themes/chalk3/images/icon-em.svg);
+    }
+    .pane-node-field-organization-twitter .field-item {
+      background: url(/sites/all/themes/chalk3/images/icon-tw.svg);
+    }
+    .pane-node-field-organization-google .field-item {
+      background: url(/sites/all/themes/chalk3/images/icon-gp.svg);
+    }
+    .pane-node-flag-inappropriate-content {
+      clear: both;
+    }
+    // Fix user name field to match field labels
+    #block-ctools-user-name {
+      h2 {
+        font-size: 110% * ($base-font-size / 14px);
+        margin-left: -10px;
+      }
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    // Now let's bump up the Sponsored events list
+    .views-field-field-organization-sponsored {
+      margin-bottom: 20px;
+      .sponsored-list {
+        ul {
+          margin: 10px 0;
+          font-size: 1.3em;
+        }
+      }
+    }
+    // Center the company logo
+    .pane-node-field-organization-logo {
+      text-align: center;
+      img {
+        max-width: 150px;
+      }
+    }
+    // Now let's make this panel page responsive below 600px!
+    @media all and (max-width:600px) {
+      .panel-col-first,
+      .panel-col,
+      .panel-col-last {
+        width: 99.9%;
+        float: none;
+        clear: both
+      }
+    }
+  }
+}

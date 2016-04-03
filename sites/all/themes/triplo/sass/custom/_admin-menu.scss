@@ -1,0 +1,19 @@
+body.admin-menu {
+
+  #chalkboard-topbar {
+    padding-top: 29px;
+  }
+
+  @media all and (max-width: 943px) {
+    #chalkboard-topbar {
+      padding-top: 58px;
+    }
+  }
+
+  @media all and (max-width: 502px) {
+    #chalkboard-topbar {
+      padding-top: 87px;
+    }
+  }
+}
+

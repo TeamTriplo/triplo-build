@@ -1,0 +1,327 @@
+.page-user {
+
+  #page-title {
+    margin-left: 34px;
+  }
+
+  .none-entered,
+  .item-list li {
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    border: 0 solid #9c9c9c;
+    box-shadow: 3px 3px 12px #9c9c9c;
+  }
+
+  .view-display-id-block_3 .field-content,
+  .view-display-id-block_1 .field-content {
+    margin: 0.5em 0;
+  }
+
+  .item-list li {
+    margin-left: -30px;
+  }
+
+  .views-label {
+    color: #E76341;
+    font-size: 20px;
+  }
+  .panel-col-first {
+    width: 19%;
+    padding: 0 3%;
+    .field-content {
+      font-size: 15px;
+    }
+  }
+  .panel-col-last {
+    width: 69%;
+    padding: 0 3%;
+    .field-content {
+      // font-size: 15px;
+    }
+  }
+  .views-field-field-contact-about-me {
+    margin-bottom: 40px;
+    padding: 0 2%;
+  }
+
+  .views-field-field-contact-unique-interesting {
+    float: left;
+    width: 29%;
+    padding: 0 2%;
+  }
+  .views-field-field-contact-languages {
+    float: left;
+    width: 29%;
+    padding: 0 2%;
+  }
+  .views-field-field-contact-interests {
+    float: left;
+    width: 29%;
+    padding: 0 2%;
+    :after {
+
+    }
+  }
+
+  .view-display-id-block_3,
+  .pane-my-offerings {
+    clear:both;
+  }
+
+  .views-field-field-contact-education {
+    float: left;
+    width: 29%;
+    padding: 0 2%;
+  }
+
+  .views-field-field-contact-work {
+    float: left;
+    width: 29%;
+    padding: 0 2%;
+  }
+
+  .views-field-field-contact-places-i-ve-lived {
+    float: left;
+    width: 29%;
+    padding: 0 2%;
+  }
+
+  .pane-views-my-offerings-block {
+    clear: both;
+  }
+
+  .field-name-field-fc-year-range,
+  .field-name-field-fc-sharing,
+  .field-name-field-fc-proficiency,
+  .field-name-field-fc-degree-attained,
+  .field-name-field-fc-skill-level,
+  .field-name-field-fc-years-experience,
+  .field-name-field-fc-position {
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.3em;
+  }
+
+  .special-places .field-name-field-address {
+    color: black;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-style: normal;
+  }
+
+  .views-field-privatemsg-link {
+    margin: 60px 0px 20px 0px;
+    a {
+      border-radius: 4px;
+      text-align: center;
+      background-color: $chalk-light;
+      padding: 45px 8px 0px 8px;
+      background: url(/sites/all/themes/chalkboard/icons/CBC_message.png) no-repeat 6px 5px;
+    }
+  }
+
+  .view-header {
+    padding-left: 30px;
+    font-style: italic;
+  }
+
+  .panel-col-top .pane-1 {
+    margin: -41px 0 20px -2px;
+
+    p {
+      //width: 230px;
+      margin: 0px auto;
+    }
+    a {
+    //   display: block;
+      text-align: left;
+    //   font-size: 18px;
+    //   padding: 8px;
+    //   border: 2px solid $chalk-link;
+    //   background-color: #F0E6E6;
+    //   border-radius: 5px;
+    //   margin-bottom: 30px;
+    }
+  }
+
+  .ctools-collapsible-container {
+    .ctools-toggle {
+      background-position: 0px 0px;
+    }
+    span.ctools-toggle {
+      margin: 20px 0 0 10px;
+    }
+  }
+
+  .ctools-collapsible-container.ctools-collapsible-processed {
+    clear: both;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .page-user {
+    .panel-col-last {
+      width: 97%;
+      padding: 0 3%;
+    }
+
+    .panel-col-first {
+      width: 97%;
+      padding: 0 3%;
+    }
+  }
+}
+
+#edit-privatemsg {
+  display: none;
+}
+
+.page-user-edit {
+
+  #page-title {
+    margin-left: 0px;
+  }
+}
+
+.views-row.views-row-1.views-row-odd.views-row-first.views-row-last {
+  clear: both;
+}
+
+.field.field-name-field-event-venue.field-type-entityreference.field-label-above {
+  margin-top: 3em;
+}
+
+.page-user .view-my-offerings table {
+  tr.even, tr.odd {
+    background-color: white;
+    border: 0px solid #9c9c9c;
+    -webkit-box-shadow: 3px 3px 12px #9c9c9c;
+    box-shadow: 3px 3px 12px #9c9c9c;
+  }
+}
+
+// Ideas on profile page
+
+.view-my-offerings {
+  .profile-idea-one,
+  .clone-link,
+  .idea-body,
+  .views-field-count {
+    float: left;
+  }
+
+  .views-field-field-image {
+
+  }
+  .profile-idea-one {
+    width: 50%;
+    padding: 0 5%;
+  }
+  .clone-link,
+  .views-field-count {
+    width: 25%;
+  }
+  .idea-body {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+
+  // Adding theming for the individual fields here:
+  
+  .view-id-user.view-display-id-block_2 {
+    .views-field.views-field-field-contact-avatar {
+      float: left;
+      margin-right: 15px;
+    }
+    .views-field.views-field-field-contact-nickname,
+    .views-field.views-field-field-contact-gender {
+      .field-content {
+        display: inline-block;
+      }
+    }
+    .views-field.views-field-privatemsg-link {
+      float: left;
+      clear: both;
+    }
+  } 
+
+  // About Me block 
+  
+  .panel-pane.pane-block.pane-views-user-block-1,
+  .view.view-user.view-id-user.view-display-id-block_3  {
+    .views-field {
+      float: none;
+      width: 100%;
+
+    }
+    .item-list li.edit,
+    .item-list li.delete {
+      width: 48%;
+      float: left;
+      clear: none;
+      margin-left: 0px;
+    }
+
+    .item-list li.edit {
+      margin-left: -30px;
+    }
+
+
+  }
+
+
+  .view-display-id-block_4 {
+    $zen-column-count: 1;
+    .views-field-field-contact-about-me {
+      @include zen-grid-item(1, 1);
+      width: 100%; 
+      float: none;
+    }
+    .views-field-field-contact-unique-interesting {
+      @include zen-grid-item(1, 1);
+      float: left;
+      width: 100%;
+      clear: both;
+    }
+    .views-field-field-contact-languages {
+      @include zen-grid-item(1, 1);
+      float: left;
+      width: 100%;
+      clear: both;
+    }
+    .views-field-field-contact-interests {
+      @include zen-grid-item(1, 1);
+      float: left;
+      width: 100%;
+      clear: both;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .view-display-id-block_5 {
+    $zen-column-count: 1;
+    .views-field-field-contact-work {
+      @include zen-grid-item(1, 1);
+      float: left;
+      width: 100%;
+      clear: both;
+    }
+    .views-field-field-contact-education {
+      @include zen-grid-item(1, 1);
+      float: left;
+      width: 100%;
+      clear: both;
+    }
+    .views-field-field-contact-places-i-ve-lived {
+      @include zen-grid-item(1, 1);
+      float: left;
+      width: 100%;
+      clear: both;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.region-sidebar-first {
+  line-height: 1.1em;
+  h2 {
+//    font-size: 30px;
+    line-height: 1.2em;
+  }
+  a:link, #page a:visited, li {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  dl, menu, ol, ul {
+    margin: 0;
+  }
+  label.option {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .views-exposed-widget {
+    margin-bottom: 25px;
+  }
+}
+
+// Theming the buttons/tabs on all search pages. 
+
+#page .search-tab {
+  /*
+  float: left;
+  border: none;
+  font-size: 12px;
+  line-height: 14px;
+  border: 0px solid green;
+  border-radius: 5px;
+  background-color: $chalk-yellow;
+  color: white;
+  width: 18%;
+  height: 40px;
+  margin-right: 2%;
+  text-align: center;
+  vertical-align: center;
+  a, a:visited {
+    color: white
+  }
+  a:hover {
+    color: $chalk-red;
+  }
+  */
+}
+
+.view-site-search,
+.view-offerings-by-date {
+  clear: both;
+}

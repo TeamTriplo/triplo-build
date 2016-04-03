@@ -1,0 +1,252 @@
+// An initial attempt to make forms filled out by basic users a little
+// more readable. Expect to do more work on this later.
+
+.form-wrapper {
+
+  background-color: white;
+  border: 1px solid #9c9c9c;
+  border-collapse: separate;
+  box-shadow: 3px 3px 12px;
+  overflow: hidden;
+
+  width: 100%; 
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  .form-wrapper {
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .form-item {
+    margin: .5em 0;
+  } 
+}
+
+#edit-field-notice-required.form-wrapper {
+  background-color: transparent;
+  box-shadow: none;
+  padding-top: 0px;
+  margin-top: -10px;
+}
+
+.notice-required {
+  color: red;
+  font-style: italic;
+
+}
+
+#edit-actions.form-wrapper {
+  background-color: transparent;
+  border-width: 0px;
+  box-shadow: none;
+}
+
+.form-item .description {
+  line-height: 14px;
+}
+
+.page-user-edit a.tabs-secondary__tab-link, 
+.page-user-edit a.tabs-secondary__tab-link.is-active {
+  padding: 5px 15px;
+  margin-left: 15px;
+  background-color: #FEEFB0;
+  text-shadow: none;
+}
+
+.page-user-edit a.tabs-secondary__tab-link:active, 
+.page-user-edit a.tabs-secondary__tab-link.is-active {
+
+  border-color: none;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    width: 100%;
+}
+
+td {
+  padding: 15px;
+}
+
+@media all and (max-width: 599px) {
+  td {
+      padding: 5px;
+  }
+  .tabs-primary__tab {
+    font-size: 8px;
+  }
+}
+
+.field-type-addressfield legend {
+  width: 100%;
+  border-bottom: 3px solid #ccc;
+  margin-top: 30px;
+}
+
+.field-type-addressfield .fieldset-legend {
+  font-weight: bold;
+  padding-right: 0em;
+  text-align: left;
+}
+
+.form-wrapper {
+  border: none;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+#edit-group_basics {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+fieldset {
+  margin-bottom: 0px;
+}
+
+#page .node-form .fieldset-legend {
+  //margin-top: -38px;
+  a {
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+}
+
+fieldset.collapsed.form-wrapper {
+  box-shadow: none;
+  margin-bottom: -5px;
+}
+ 
+.node-form .group-category-examples .fieldset-legend,
+ {
+  margin-top: 0px;
+}
+
+.node-form #edit-body {
+  margin-bottom: 60px;
+}
+
+.node-form .collapsible {
+  margin-bottom: 30px;
+}
+
+.group-categories .fieldset-wrapper {
+  padding-bottom: 20px;
+}
+
+.node-form .collapsed {
+  margin-bottom: 0px;
+}
+
+#edit-field-organization-manager {
+  display: none;
+}
+
+.node-form .form-item {
+  margin-left: 30px;
+  label {
+    margin-left: -30px;
+    font-style: bold;
+    margin-bottom: 10px;
+  }
+  .form-item {
+    margin-left: 0px;
+    label {
+      margin-left: 0px;
+    }
+  }
+}
+
+.node-form .form-field-type-markup {
+  p {
+    margin-left: 30px;
+  }
+}
+
+.node-form .form-type-checkbox,
+.node-form .form-type-radio  {
+  margin-left: 0px;
+  label {
+    margin-left: 0px;
+  }
+}
+
+.page-user-register .field-type-markup.field-name-field-save-reminder.field-widget-markup.form-wrapper {
+  display: none;
+}
+
+#user-profile-form .field-name-field-save-reminder,
+#edit-actions--2,
+#edit-field-org-msg-auth-yes.form-wrapper {
+  border: none;
+  box-shadow: none;
+}
+
+.page-user-register {
+  font-size: 12px;
+  p {
+    margin: 0.2em 0;
+  }
+  .form-wrapper {
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px 0px;
+
+  }
+  .form-item-name,
+  .form-item-mail {
+    width: 45%;
+    margin-right: 3.1%;
+    float: left;
+  }
+
+  #edit-name--2 .form-item {
+    width: 30%;
+    margin-right: 3.1%;
+    float: left;
+  }
+  .fieldset-legend {
+    font-weight: bold;
+  }
+  #field-work-or-business-add-more-wrapper {
+    margin-left: 0px;
+  }
+  .field-birthday-add-more-wrapper {
+    margin-left: -30px;
+  }
+  fieldset.date-combo .container-inline-date .date-padding {
+    padding: 0px;
+  }
+  #edit-account {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  #edit-redhen-contact,
+  #edit-field-work-or-business,
+  #edit-field-birthday,
+  #edit-site-disclaimer, 
+  #edit-actions {
+    padding-left: 10px;
+  }
+  #edit-site-disclaimer p {
+    font-size: 120%;
+    font-style: bold;
+    margin-left: 20px;
+  }
+  #edit-field-business-instructions {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 2%;
+    border: 1px solid black;
+
+    background-color: #FFEEB1;
+    p {
+      font-size: 110%;
+      font-weight: 700;
+    }
+  }
+}

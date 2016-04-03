@@ -1,0 +1,73 @@
+.view-id-sponsor_index.view-display-id-page {
+  .views-row {
+    padding: 3%;
+    background-color: white;
+    border: 0 solid #9c9c9c;
+    border-collapse: separate;
+    box-shadow: 3px 3px 12px #9c9c9c;
+    display: block;
+    margin-bottom: 25px;
+    min-height: 150px;
+    overflow: hidden;
+    .views-field.views-field-nothing {
+      text-align: center;
+      img {
+        max-width: 150px;
+        width: 100%;
+      }
+      a {
+        display: block;
+      }
+    }
+    .views-field-field-organization-mission-stmnt,
+    .views-field.views-field-nothing-1,
+    .views-field.views-field-nothing-2 {
+      div {
+        margin-bottom: 10px;
+      }
+      a {
+        display: block;
+      }
+    }
+    .title {
+      font-size: 1.3em;
+      font-weight: 700;
+    }
+    .views-field-field-image .views-row {
+      box-shadow: none;
+    }
+    @media all and (min-width: 600px) {
+      $zen-grid-width: 100%;
+      $zen-column-count: 4;
+      $zen-gutter-method: margin;
+      $zen-gutter-width: 15px;
+      $zen-auto-include-item-base: true;
+      //First Column
+      .views-field-nothing {
+        @include zen-grid-item(1, 1);
+      }
+      //Second Column
+      .views-field-nothing-1 {
+        @include zen-grid-item(2, 2);
+      }
+      //Third Column
+      .views-field-nothing-2 {
+        @include zen-grid-item(1, 4);
+      }
+    }
+    @media (max-width: 600px) {
+      $zen-grid-width: 100%;
+      $zen-column-count: 1;
+      //First Column
+      .views-field-nothing {
+        text-align: center;
+      }
+      //Second Column
+      .views-field-nothing-1 {}
+      //Third Column
+      .views-field-nothing-2 {
+        margin-top: 20px;
+      }
+    }
+  }
+}

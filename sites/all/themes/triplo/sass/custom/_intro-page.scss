@@ -1,0 +1,67 @@
+// Changing this to body.front from .page-node-421 because this will follow to any reassigned front page.
+body.front {
+  //text-align: center;
+  h1, h2 {
+    margin-bottom: 0px;
+  }
+  .field-name-body {
+    margin-bottom: 25px;
+    margin-bottom: 5vw;
+  }
+  .field-name-body p {
+    //text-align: left;
+    // font-size: 1.5vw;
+    // line-height: 2.3vw;
+    // max-width: 75%;
+    // margin: 1.5vw auto;
+  }
+  #page-title {
+    // font-size: 2.5vw;
+  }
+}
+
+// This disabled the display of error messages on the front page:
+.front #page > #main > #content > .messages {
+  display: none;
+}
+
+#front-banner {
+  text-align: center;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  img {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .page-node-421 {
+    .field-name-body p {
+      // font-size: 3vw;
+      // line-height: 4vw;
+      // margin: 3.5vw auto;
+    }
+    #page-title {
+      // font-size: 3.5vw;
+    }
+  }
+
+  #front-banner {
+    width: 100%;
+  }
+
+}
+
+.panel-pane.pane-page-messages {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media all and (max-width: 800px) {
+  .panel-pane.pane-page-messages {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+
+// 408 = Midwest Mountaineering
+
+.not-front #page.storefronts {
+
+  margin: 0;
+  max-width: 100%;
+  #main {
+    margin: 0px auto;
+    max-width: 1100px;
+  }
+
+  .views-field-field-storefront-menu {;
+    margin-top: 20px;
+    a {
+      padding: 5px;
+      border: 2px solid brown;
+      border-radius: 5px;
+      
+    }
+    a:hover {
+      background-color: white;
+    }
+    li {
+      margin-bottom: 15px;
+    }
+  }
+
+  a, a:visited {
+    color: #D67424;
+
+  }
+
+
+  li {
+    list-style-type: none;
+  }
+}

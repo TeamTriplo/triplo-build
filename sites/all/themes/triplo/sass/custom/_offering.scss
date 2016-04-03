@@ -1,0 +1,72 @@
+.page-node.node-type-offering {
+  // Take extra top margin our of all P tags
+  .field-items p {
+    margin-top: 0px;
+  }
+  // Add bottom margin to all columns
+  .group-left,
+  .group-middle,
+  .group-right {
+    margin-bottom: 20px;
+  }
+  // Left column formatting
+  .group-left {
+    .field-items {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    .field-name-field-image {
+      .field-items {
+        margin-left: 0px;
+        text-align: center;
+      }
+    }
+  }
+
+  // Middle column formatting
+  .group-middle {
+    // First we indent ALL items
+    .field-items {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    // Now we unindent the body and addtoany icons
+    .field-name-addtoany .field-items,
+    .field-name-body .field-items {
+      margin-left: 0px;
+    }
+    // Center the Google Map
+    .field-name-field-offering-geofield > .field-items {
+      margin-bottom: 10px;
+      width: 300px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  .group-right {
+    //Indent all the fields
+    .field-items {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+    // Unindent the sponsor logo
+    .field-name-sponsor-logo {
+      .field-items {
+        margin-left: 0px;
+      }
+      // Then center the sponsor logo
+      .views-field-field-organization-logo .field-content {
+        text-align: center;
+      }
+    }
+  }
+  // Finally we add some gutters to all the items in the left and center columns,  Why doesn't display suite do this?!?
+  @media all and (min-width: 600px) {
+    .ds-3col > .group-left > div,
+    .ds-3col > .group-middle > div {
+      margin-right: 20px;
+    }
+  }
+}
+
