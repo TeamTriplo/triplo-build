@@ -4,3 +4,17 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+# OS Related content
+
+.DS_Store
+*/.DS_Store
+.DS_Store?
+
+sites/default/
+
+sites/all/themes/triplo/.sass-cache/*
+
+# Ignore custom .htaccess file - includes reference to .htpasswd unique to
+# each environment - DanG, 20160229.1420
+.htaccess
